@@ -1,12 +1,12 @@
 android_app {
-    name: "MyTestApplication",
+    name: "MyTestApp",
 
-    resource_dirs: ["app/src/main/res"],
+    resource_dirs: ["res"],
 
     sdk_version: "current",
     privileged: true,
 
-    srcs: ["app/src/main/java/**/*.java"],
+    srcs: ["java/**/*.java"],
 
     static_libs: [
         "android-support-v4",
