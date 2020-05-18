@@ -2,4 +2,5 @@
     <string name="app_name">My TestApplication</string>
     <string name="btn_exit">Exit</string>
     <string name="btn_vibrate">Vibrate</string>
+    <string name="btn_direct_vibrate">Direct Vibrate</string>
 </resources>

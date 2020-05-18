@@ -1,0 +1,25 @@
+android_app {
+    name: "MyTestApp",
+
+    srcs: ["app/src/main/java/**/*.java"],
+    resource_dirs: ["app/src/main/res"],
+    manifest: "app/src/main/AndroidManifest.xml",
+
+    sdk_version: "current",
+    privileged: true,
+    platform_apis: true,
+
+    static_libs: [
+        "android-support-v4",
+        "android-support-v7-appcompat",
+        "androidx-constraintlayout_constraintlayout",
+        "android.hidl.base-V1.0-java",
+        "android.hardware.vibrator-V1.0-java",
+        "android.hardware.vibrator-V1.1-java",
+        "android.hardware.vibrator-V1.2-java",
+	"android.hardware.vibrator-V1.3-java",
+    ],
+
+    certificate: "platform",
+
+}
